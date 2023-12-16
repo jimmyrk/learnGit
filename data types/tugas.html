@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic types</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+
+    <script>
+        const x = {
+            firstName: "jhon",
+            lastname: "doe"
+        };
+
+        let length = 16;
+
+        let lastName = "johnson";
+
+        document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof length + "<br>" + typeof lastName;
+        // document.getElementById("demo").innerHTML = typeof length;
+        // document.getElementById("demo").innerHTML = typeof lastName;
+
+    </script>
+
+</body>
+
+</html>
